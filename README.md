@@ -23,3 +23,4 @@ A collection of notebooks and projects done as a part of Udacity's Deep Reinforc
 
 - [Notebook: Temporal Difference](1.%20Introduction%20to%20Deep%20Reinforcement%20Learning/L7%20temporal-difference/Temporal_Difference.ipynb)
 
+_TODO:_ #### Lesson 8 - Solve OpenAI Gym's Taxi-v2 Task
