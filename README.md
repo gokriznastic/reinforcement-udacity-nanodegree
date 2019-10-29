@@ -15,3 +15,9 @@ A collection of notebooks and projects done as a part of Udacity's Deep Reinforc
 
 #### Lesson 5 - The RL Framework: The Solution
 
+#### Lesson 6 - Monte Carlo Methods
+
+- [Notebook: Monte Carlo](1.%20Introduction%20to%20Deep%20Reinforcement%20Learning/L6%20monte-carlo/Monte_Carlo.ipynb)
+
+#### Lesson 7 - Temporal-Difference Methods
+
