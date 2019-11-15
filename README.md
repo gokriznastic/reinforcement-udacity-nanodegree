@@ -34,3 +34,13 @@ _TODO:_ #### Lesson 8 - Solve OpenAI Gym's Taxi-v2 Task
 #### Lesson 10 -  What's Next?
 
 ----------------------------------------------------------------------------------------------------------
+
+## Value Based Methods
+
+#### Lesson 1 - Deep Reinforcement Learning for Robotics
+
+#### Lesson 2 - Deep Q-Networks
+
+- [Notebook: Deep Q-Network](2.%20Value-Based%20Methods/L2%20dqn/Deep_Q_Network.ipynb)
+
+#### Lesson 3 - Deep RL for Robotics
