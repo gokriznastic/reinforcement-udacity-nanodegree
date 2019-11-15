@@ -28,7 +28,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### The approach and solution
 
-In this solution we have used a simple **Deep Q-learning** agent implemented using a simple feed-forward network in Pytorch. More details are provided in [project report](2.%20Value-Based%20Methods/p1_navigation/PROJECT_REPORT.md) along with the [weights](2.%20Value-Based%20Methods/p1_navigation/checkpoint.pth) for our trained agent. 
+In this solution we have used a simple **Deep Q-learning** agent implemented using a simple feed-forward network in Pytorch. More details are provided in [project report](PROJECT_REPORT.md) along with the [weights](checkpoint.pth) for our trained agent. 
 
 ### Setting up the project
 
