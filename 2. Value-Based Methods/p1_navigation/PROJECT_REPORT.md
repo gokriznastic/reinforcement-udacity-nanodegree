@@ -24,7 +24,7 @@ Gamma or discount factor is kept to be 0.99.
 
  At Episode 388, agent performance met the criteria and stopped training. (mean scores of last 100 episodes is above +13)
  
- <img src=p1_navigation/rewards.png>
+ <img src="rewards.png">
  
 ## Further improvements
 
