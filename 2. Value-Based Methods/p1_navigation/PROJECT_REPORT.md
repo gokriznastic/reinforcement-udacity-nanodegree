@@ -7,13 +7,13 @@ For solving this project, a simple **Deep Q-Network** or **DQN** was used.
 #### 1. Deep Q-Network (DQN)
 
 As reinforcement learning algorithm, I implemented a vanilla DQN as demonstrated in lessons prior to this project.
-The weights for the the trained network can be found [here](checkpoint.pth)
+The Deep Q-Learning algorithm represents the optimal action-value function q<sub>*</sub> as a neural network (instead of a table). Hence, instead of representing the action values in a small finite table, neural networks are employed to expand the size of the problems that we can solve with reinforcement learning. This helps in capturing a much wider state space and estimating optimal actions for even previously unvisited states. The weights for the the trained network can be found [here](checkpoint.pth).
 
 Inside the DQN, I used three layer neural network as Q-Value Estimator. Hidden layers are composed of `State -> 64 -> ReLU -> 128 -> ReLU -> 256 -> Action`.
 
 #### 2. Experience Replay and Fixed Q-Targets
 
-Similarly to original DQN paper, Experience Replay and Fixed Q Targets were used. In this technique, DQN model is trained by mini-batch from replay buffer having size 100000.
+Similarly to original DQN paper, Experience Replay and Fixed Q Targets were used. Reinforcement learning is notoriously unstable when neural networks are used to represent the action values. In the Deep Q-Learning algorithm, these instabilities are addressed by using two key features- Experience Replay & Fixed Q-Targets. In this technique, DQN model is trained by mini-batch from replay buffer having size 100000.
 
 #### 3. Other hyperparams:
 
