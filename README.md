@@ -44,3 +44,5 @@ _TODO:_ #### Lesson 8 - Solve OpenAI Gym's Taxi-v2 Task
 - [Notebook: Deep Q-Network](2.%20Value-Based%20Methods/L2%20dqn/Deep_Q_Network.ipynb)
 
 #### Lesson 3 - Deep RL for Robotics
+
+### Project - [Navigation](2.%20Value-Based%20Methods/p1_navigation)
