@@ -92,7 +92,7 @@ EPSILON_DECAY = 1e-6    # decay rate for noise process
 At Episode 828, agent performance met the criteria and stopped training.
 Our agent was able to solve the Reacher environment with an average reward of at least +30.
 
-<img src="p2_continuous-control/rewards.png"/>
+<img src="results.png"/>
 
 ## Further improvements
 
