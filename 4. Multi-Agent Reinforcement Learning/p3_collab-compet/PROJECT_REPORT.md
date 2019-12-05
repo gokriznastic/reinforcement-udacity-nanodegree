@@ -89,3 +89,10 @@ At Episode 1641, agent performance met the criteria and stopped training.
 Our agent was able to solve the Tennis environment with an average reward of +0.5.
 
 <img src="results.png"/>
+
+## Further improvements
+
+- Trying other algorithms like PPO, A3C or D4PG
+- We can use prioritised experience buffer.
+- Different replay buffer for actor/critic
+- Try adding dropouts in critic network
