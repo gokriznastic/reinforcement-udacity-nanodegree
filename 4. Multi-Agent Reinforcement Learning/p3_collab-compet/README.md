@@ -30,7 +30,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 In this solution we have used a **simple DDPG (Deep Deterministic Policy Gradient) actor-critic** agent implemented using feed-forward networks in Pytorch. More details are provided in [project report](PROJECT_REPORT.md) along with the weights for our trained agent. 
 
-### Getting Started
+### Setting up the project
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
