@@ -91,8 +91,12 @@ Our agent was able to solve the Tennis environment with an average reward of +0.
 <img src="results.png"/>
 
 ## Further improvements
+- **Experiment with other algorithms** &mdash; Tuning the DDPG algorithm required a lot of trial and error. 
+Perhaps another algorithm such as [Trust Region Policy Optimization (TRPO)](https://arxiv.org/abs/1502.05477), 
+Proximal Policy Optimization (PPO), or [Distributed Distributional Deterministic Policy Gradients (D4PG)](https://arxiv.org/abs/1804.08617) would be more robust.
 
-- Trying other algorithms like PPO, A3C or D4PG
-- We can use prioritised experience buffer.
-- Different replay buffer for actor/critic
-- Try adding dropouts in critic network
+- **Add *prioritized* experience replay** &mdash; Rather than selecting experience tuples randomly, prioritized replay selects 
+experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the 
+probability that rare and important experience vectors are sampled.
+
+- **Different replay buffer for actot and critic**
