@@ -99,4 +99,4 @@ Proximal Policy Optimization (PPO), or [Distributed Distributional Deterministic
 experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the 
 probability that rare and important experience vectors are sampled.
 
-- **Different replay buffer for actot and critic**
+- **Different replay buffer for actor and critic**
